@@ -45,8 +45,14 @@ class User extends ActiveRecord implements IdentityInterface
      */
     public function beforeSave($insert)
     {
-        // hash password
-        $this->password = Yii::$app->getSecurity()->generatePasswordHash($this->password);
+        // check if password is not hashed and hash it
+        if (!preg_match('/^\$2[axy]\$(\d\d)\$[\.\/0-9A-Za-z]{22}/', $this->password, $matches)
+            || $matches[1] < 4
+            || $matches[1] > 30
+        ) {
+            $this->password = Yii::$app->getSecurity()->generatePasswordHash($this->password);
+        }
+
         return true;
     }
 
