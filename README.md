@@ -4,7 +4,7 @@ RuYou.ru test task
 
 Test task: https://docs.google.com/document/d/1D0iV0d-AQuBF-6lhPpk-CLHEfNIMSoloxmtfp9Qxddo/edit (in Russian).
 
-You can see the working application in action here: http://ruyou.ld.am.
+You can see the working application in action here: https://ruyou.ld.am.
 
 Installation
 ------------
