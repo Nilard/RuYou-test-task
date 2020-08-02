@@ -17,6 +17,8 @@ To install the application you'll need the composer (https://getcomposer.org).
 4. Update the file `config/db.php` with real database credentials.
 5. Run migration using `php yii migrate`.
 
+Web server should be configured to point to `web` folder and to support 'Pretty URLSs'.
+
 Working with REST API
 ---------------------
 
