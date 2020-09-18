@@ -4,7 +4,7 @@ RuYou.ru test task
 
 Test task: https://docs.google.com/document/d/1D0iV0d-AQuBF-6lhPpk-CLHEfNIMSoloxmtfp9Qxddo/edit (in Russian).
 
-You can see the working application in action here: http://ruyou.ld.am.
+You can see the working application in action here: https://ruyou.ld.am.
 
 Installation
 ------------
@@ -17,7 +17,7 @@ To install the application you'll need the composer (https://getcomposer.org).
 4. Update the file `config/db.php` with real database credentials.
 5. Run migration using `php yii migrate`.
 
-Web server should be configured to point to `web` folder and to support 'Pretty URLSs'.
+Web server should be configured to point to `web` folder and to support 'Pretty URLs'.
 
 Working with REST API
 ---------------------
