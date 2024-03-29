@@ -2,8 +2,6 @@
 RuYou.ru test task
 ==================
 
-Test task: https://docs.google.com/document/d/1D0iV0d-AQuBF-6lhPpk-CLHEfNIMSoloxmtfp9Qxddo/edit (in Russian).
-
 Installation
 ------------
 
